@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klein & Bill - Geometria Parametrica</title>
+</head>
+<body>
+
+    <header>
+        <section>
+            <h1>KLEIN & BILL</h1>
+            <p>GEOMETRIA PARAMETRICA</p>
+        </section>
+
+        <section>
+            <p>PLIEGO TECNICO // ESTUDIO MORFOLOGICO DE SUPERFICIES REGLADAS</p>
+            <p>SISTEMA: <strong>EUCLIDIANO 3D</strong></p>
+            <p>DATUM: <strong>X: 142.8 Y: 89.4 Z: 0.0</strong></p>
+            <p>TOLERANCIA: <strong>+-0.001 mm</strong></p>
+        </section>
+    </header>
+
+    <aside>
+        <nav>
+            <h3>CAPITULOS DE CALCULO</h3>
+            <ul>
+                <li><a href="#">01 // Cupula Geodesica</a></li>
+                <li><a href="#">02 // Nodos MERO</a></li>
+                <li><a href="#">03 // Tensegridad</a></li>
+                <li><a href="#">04 // Malla Voronoi</a></li>
+                <li><a href="#">05 // Topologia Euler</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <p>ESCALA 1:50</p>
+            <p>PROY: DIN-A1</p>
+        </section>
+    </aside>
+
+    <main>
+        <article>
+            <header>
+                <p>MEMORIA ESTRUCTURAL // DOCUMENTO CANONICO 01</p>
+                <h2>Subdivision Icosaedrica & Reticula 4v</h2>
+                <p>
+                    Calculo: <strong>Dr. Konrad Wachsmann</strong> - 
+                    <time>30 de Octubre de 2026</time> - 
+                    Ref: <strong>IKB-GEO-884</strong>
+                </p>
+            </header>
+
+            <figure>
+                <img src="cupula-geodesica.png" alt="Proyeccion Ortogonal de la Cupula Geodesica 4v">
+                <figcaption>
+                    Figura 1.2: Proyeccion Ortogonal de la Cupula Geodesica 4v - Tolerancia de Barra: +-0.05 mm
+                </figcaption>
+            </figure>
+
+            <blockquote>
+                <p>"Una estructura geodesica no soporta cargas por acumulacion de masa, sino por la distribucion vectorial omnidireccional de tensiones a través de la retícula triangular."</p>
+            </blockquote>
+
+            <p>La subdivision de frecuencia 4v a partir de un icosaedro regular garantiza una esfericidad optima con unicamente 6 longitudes de barra normalizadas. Los esfuerzos axiales de compresión y tracción se equilibran en los nodos, suprimiendo los momentos flectores en los perfiles.</p>
+
+            <section>
+                <article>
+                    <h4>FRECUENCIA DE MALLA</h4>
+                    <p><strong>4v Icosaedrica</strong></p>
+                </article>
+
+                <article>
+                    <h4>NODOS TOTALES</h4>
+                    <p><strong>162 Conectores</strong></p>
+                </article>
+
+                <article>
+                    <h4>BARRAS TUBULARES</h4>
+                    <p><strong>480 Perfiles</strong></p>
+                </article>
+
+                <article>
+                    <h4>TENSION MAXIMA</h4>
+                    <p><strong>o = 142 MPa</strong></p>
+                </article>
+            </section>
+
+            <footer>
+                <p>Memoria Aprobada: <strong>Dpto. de Morfologia y Estructuras Ligeras</strong></p>
+                <p>Verificacion: <strong>Euler (V - E + F = 2) Conforme</strong></p>
+            </footer>
+        </article>
+
+        <aside>
+            <section>
+                <header>
+                    <h2>SISTEMAS DE NUDO Y UNION</h2>
+                    <p>3 COMPONENTES</p>
+                </header>
+
+                <article>
+                    <figure>
+                        <img src="nodo-mero.png" alt="Nodo MERO M-12">
+                    </figure>
+                    <h3>Nodo MERO M-12</h3>
+                    <p>18 Roscas Radiales</p>
+                    <p>ACERO 8.8</p>
+                </article>
+
+                <article>
+                    <figure>
+                        <img src="tensegridad.png" alt="Tensegridad Fuller">
+                    </figure>
+                    <h3>Tensegridad Fuller</h3>
+                    <p>Compresion Flotante</p>
+                    <p>AUTO-ESTABLE</p>
+                </article>
+
+                <article>
+                    <figure>
+                        <img src="voronoi.png" alt="Celula Voronoi">
+                    </figure>
+                    <h3>Celula Voronoi</h3>
+                    <p>Generacion Parametrica</p>
+                    <p>ALGORITMICO</p>
+                </article>
+            </section>
+
+            <section>
+                <header>
+                    <h2>AXIOMAS DE RIGIDEZ ESTRUCTURAL</h2>
+                    <p>CODIGO MORFOLOGICO</p>
+                </header>
+
+                <ul>
+                    <li>El triangulo es la unica figura plana indeformable.</li>
+                    <li>Optimizar el flujo de fuerzas eliminando momentos flectores.</li>
+                    <li>Simetria espacial como garantia de rigidez torsional.</li>
+                </ul>
+
+                <section>
+                    <p>Laboratorio de Estructuras</p>
+                    <p>Edificio Euler, Pabellon 3</p>
+                    <p>calculo@klein-bill.org</p>
+                    <button>DESCARGAR PLIEGO</button>
+                </section>
+            </section>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2026 KLEIN & BILL MORPHOLOGY LAB - TODOS LOS DERECHOS REGISTRADOS SEGUN NORMA ISO 128 (DIBUJO TECNICO).</p>
+        <p>PLANO N° <strong>ARQ-GEO-2026-REV4</strong> - HOJA <strong>01 DE 04</strong></p>
+    </footer>
+
+</body>
+</html>
